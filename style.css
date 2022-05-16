@@ -1,0 +1,96 @@
+:root{
+
+--color-primary-brightOrange:hsl(31, 77%, 52%);
+--color-primary-darkCyan:hsl(184, 100%, 22%);
+--color-primary-veryDarkCyan: hsl(179, 100%, 13%);
+
+--color-neutral-transparentWhite:hsla(0, 0%, 100%, 0.75);
+--color-neutral-veryLightGray: hsl(0, 0%, 95%);
+
+
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Big Shoulders Display', cursive; */
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+img{
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+   
+}
+
+.card__component{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 300px;
+    
+}
+.card__component img{
+max-width: 5em;
+
+}
+
+.card__component:nth-child(1){
+    background-color: var(--color-primary-brightOrange);
+}
+.card__component:nth-child(1) .btn{
+    color: var(--color-primary-brightOrange);
+}
+
+.card__component:nth-child(2){
+    background-color: var(--color-primary-darkCyan);
+}
+
+.card__component:nth-child(2) .btn{
+    color: var(--color-primary-darkCyan);
+}
+
+.card__component:nth-child(3){
+    background-color: var(--color-primary-veryDarkCyan);
+}
+
+.card__component:nth-child(3) .btn{
+    color: var(--color-primary-veryDarkCyan);
+}
+
+
+
+
+
+.btn{
+
+    margin-top: 5em;
+    max-width: 10em;
+    border-radius: 20px;
+    border-width: 0;
+    padding: .7em 1.5em;
+    
+
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
