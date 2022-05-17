@@ -24,6 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: var(--color-neutral-veryLightGray);
+    line-height: 1.3;
 
 }
 
