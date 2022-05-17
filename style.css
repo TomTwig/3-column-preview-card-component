@@ -19,19 +19,24 @@ body{
     font-family: 'Lexend Deca', sans-serif;
     color: white;
     font-weight: 400;
-    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-neutral-veryLightGray);
 
+}
+
+body p{
+    color: var(--color-neutral-transparentWhite);
 }
 
 img{
     width: 100%;
 }
 
-.container{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container{ 
+    margin: 0 1em;
 }
 
 .card{
@@ -48,6 +53,7 @@ img{
 
 .card__component h1{
     font-family: 'Big Shoulders Display', cursive;
+    color: var(--color-neutral-veryLightGray);
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -99,14 +105,15 @@ max-width: 3em;
     border-radius: 20px;
     border-width: 0;
     padding: .7em 1.5em;
+    background-color: var(--color-neutral-veryLightGray);
 }
 
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 400px){
 
     .container{
         height: 100%;
-        margin: 1em 0;
+        margin: 0;
     }
 
 
